@@ -5,45 +5,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="assets/reset.css" />
+  <link rel="stylesheet" href="./assets/style.css" />
 </head> 
 
 <body>
-
-
     <header>
-        <h1 class="page-title">
+        
+            <div class="header">
+        <h1>
             Samuel Montague
         </h1>
+            </div>
+
         <div class="profile-image">
             <img src=./assets/image/selfie.jpg alt="selfie" width="350" height="400">
         </div>
-        <div class="resource-links">
+        <section>
             <nav>
-                <ul>
-                    <li>
-                        <h2><a rel=about-me href="#about-me">About Me</a></h2>
-                    </li>
-                    <li>
-                        <h2> <a rel=work href="#work">Work</a></h2>
-                    </li>
-                    <li>
-                        <h2> <a rel=contact-me href="#contact-me">Contact Me</a></h2>
-                    </li>
-                    <li>
-                        <h2> <a rel=Resume href="https://docs.google.com/document/d/1zwVeAYXx2eZBNyKz57fYxExxlIkifMeE6fsSdFhFv1o/edit?usp=sharing">Resume</a>
-                        </h2>
-                    </li>
+                <ul id="nav-bar">
+                    <li><h2> <a rel=about-me href="#about-me">About Me</a></h2></li>
+                    <li><h2> <a rel=work href="#work">Work</a></h2></li>
+                    <li><h2> <a rel=contact-me href="#contact-me">Contact Me</a></h2></li>
+                    <li><h2> <a rel=Resume href="https://docs.google.com/document/d/1zwVeAYXx2eZBNyKz57fYxExxlIkifMeE6fsSdFhFv1o/edit?usp=sharing">Resume</a></h2></li>
                 </ul>
             </nav>
-        </div>
+        </section>
     </header>
 
 
     <main>
         <section class="about-me">
-           <h1 class="about-me-title" id="about-me">About Me</h1>
+           <h1 id="about-me">About Me</h1>
            <div class="About-me-body">
                <p> I am a new and upcoming web developer! I am 28 years old, with a background in Chemical Engineering and Aerospace Engineering.
                     Previously I worked at Medtronic and JPL/NASA as a Liquid Fuels Engineer. I am studying to become a web developer to learn and use a new set of skills in the laboratory. 
@@ -54,32 +47,45 @@
         <section class="work">
             <h1 class="work-title" id="work">Work</h1>
                 <div class="work-body">
-                    <section class="virtual-terminal">
-                        <img src="./assets/image/Virtual-Merchant.jpg" alt="virtual-terminal" class="virtual-image-terminal" />
-                            <h2>Virtual Terminal</h2>
-                    </section>  
-                    <section class="info-api">
-                        <img src="./assets/image/info-api.jpg" alt="info-api" class="info-api-image" width= "500px" height="350" />
-                            <h2>Info API</h2>
+                    <section class="main-body">
+                        <a href="https://m-ray-ofsunshine.github.io/actor-database/">
+                            <img src="./assets/image/resultPage.PNG" alt="actorDatabase" class="actorDatabase" width= "1000px" height="700px"  />
+                            <h2 class="card-header">Actor Database</h2></a>
+                        </section>  
+                        <section class="card-body">
+                            <div class="card-column">
+                                <a href="https://github.com/aligrudi/fbpad">
+                                    <img src="./assets/image/Virtual-Merchant.jpg" alt="virtual-terminal" class="virtual-image-terminal" width= "500px" height="350"/>
+                                    <h2 class="card-header">Virtual Terminal</h2></a>
+                                </div>
                     </section>
-                    <section class="admin-dashboard">
+                    <section class="card-body">
+                        <div class="card-column">
+                        <a href="https://docs.alfresco.com/content-services/6.1/admin/admin-console/">
                              <img src="./assets/image/admin-dashboard.jpg" alt="admin-dashboard" class="admin-dashboard-image" width= "500px" height="350"/>
-                                <h2>Admin Dashboard</h2>  
+                                <h2 class="card-header">Admin Dashboard</h2>  </a>
+                                </div>
                     </section>  
-                    <section class="restaurant-menu-manager">
+                    <section class="card-body">
+                        <div class="card-column">  
+                        <a href="https://github.com/richardroyal/easy-restaurant-menu-manager">
                         <img src="./assets/image/RMM.jpg" alt="restaurant-menu-manager" class="restaurant-menu-manager-image" width= "500px" height="350" />
-                           <h2>Restaurant Menu Manager</h2>  
-                    </section>  
-                    <section class="admin-dashboard">
+                           <h2 class="card-header">Restaurant Menu Manager</h2>  </a>
+                            </div>
+                        </section>  
+                    <section class="card-body">
+                        <div class="card-column">
+                        <a href="https://github.com/microsoft/calculator">
                 <img src="./assets/image/calculator.jpg" alt="Calculator" class="calculator-image" width= "500px" height="350" />
-                   <h2>Calculator</h2>  
-       </section>  
+                   <h2 class="card-header">Calculator</h2> </a> 
+                            </div>
+                </section>  
                 </div>
         </section>
     </main>
 
-    <footer class="contact-me">
-        <h1>Contact Me</h1>
+    <footer>
+        <h1 class=contact>Contact Me</h1>
         <div class="contact-links" id="contact-me">
             <nav>
                 <ul>
