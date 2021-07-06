@@ -5,7 +5,7 @@
 }
 
 header {
-    text-align: left;
+    
     border: 3px solid var(--border);
     background-color: var(--background);
 } 
@@ -36,7 +36,7 @@ main {
 .card-header {
     display:flex;
     flex-direction: column;
-    color: var(--title);
+    color: white;
     background-color: (--background);
     border: 3px solid var(--border);
     position: relative;
