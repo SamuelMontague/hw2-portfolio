@@ -1,109 +1,130 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="assets/reset.css" />
-  <link rel="stylesheet" href="./assets/style.css" />
-</head> 
-
-<body>
-    <header class="row">
-        
-        <div class="header col-12">
-        <h1>
-            Samuel Montague
-        </h1>
-        </div>
-
-        <div class="profile-image col-12">
-            <img src=./assets/image/selfie.jpg alt="selfie" width="350" height="400">
-        </div>
-        <section>
-            <nav>
-                <ul id="nav-bar">
-                    <li><h2> <a rel=about-me href="#about-me">About Me</a></h2></li>
-                    <li><h2> <a rel=work href="#work">Work</a></h2></li>
-                    <li><h2> <a rel=contact-me href="#contact-me">Contact Me</a></h2></li>
-                    <li><h2> <a rel=Resume href="https://docs.google.com/document/d/1zwVeAYXx2eZBNyKz57fYxExxlIkifMeE6fsSdFhFv1o/edit?usp=sharing">Resume</a></h2></li>
-                </ul>
-            </nav>
-        </section>
+  <body>
+    <header class="row name-title">
+      <div class="header col-12">
+        <h1>Samuel Montague</h1>
+      </div>
+      <br>
+      <div class="profile-image col-sm-12 col-6">
+        <img src=./assets/image/selfie.jpg alt="selfie" width="350"
+        height="400">
+      </div>
+      <section>
+        <nav>
+          <ul id="nav-bar">
+            <li>
+              <h2><a rel="about-me" href="#about-me">About Me</a></h2>
+            </li>
+            <li>
+              <h2><a rel="work" href="#work">Work</a></h2>
+            </li>
+            <li>
+              <h2><a rel="contact-me" href="#contact-me">Contact Me</a></h2>
+            </li>
+            <li>
+              <h2>
+                <a
+                  rel="Resume" style="text-decoration: none"
+                  href="https://docs.google.com/document/d/1zwVeAYXx2eZBNyKz57fYxExxlIkifMeE6fsSdFhFv1o/edit?usp=sharing"
+                  >Resume</a
+                >
+              </h2>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
-
     <main>
-        <section class="row about-me">
-           <h1 id="col-12 about-me">About Me</h1>
-           <div class="col-12 About-me-body">
-               <p> I am a new and upcoming web developer! I am 28 years old, with a background in Chemical Engineering and Aerospace Engineering.
-                    Previously I worked at Medtronic and JPL/NASA as a Liquid Fuels Engineer. I am studying to become a web developer to learn and use a new set of skills in the laboratory. 
-                    I have always been interested in coding but never had time to sit down and learn it! In my free time I love to exercise, read novels and non-fiction, and hang out with my friends and family.
-                </p>
-           </div>
-        </section>
-        <section class="work">
-            <h1 class="work-title" id="work">Work</h1>
-                <div class="work-body">
-                    <section class="main-body">
-                        <a href="https://m-ray-ofsunshine.github.io/actor-database/">
-                            <img src="./assets/image/resultPage.PNG" alt="actorDatabase" class="actorDatabase" width= "1000px" height="700px"  />
-                            <h2 class="card-header">Actor Database</h2></a>
-                        </section>  
-                        <section class="card-body">
-                            <div class="card-column">
-                                <a href="https://github.com/aligrudi/fbpad">
-                                    <img src="./assets/image/Virtual-Merchant.jpg" alt="virtual-terminal" class="virtual-image-terminal" width= "500px" height="350"/>
-                                    <h2 class="card-header">Virtual Terminal</h2></a>
-                                </div>
-                    </section>
-                    <section class="card-body">
-                        <div class="card-column">
-                        <a href="https://docs.alfresco.com/content-services/6.1/admin/admin-console/">
-                             <img src="./assets/image/admin-dashboard.jpg" alt="admin-dashboard" class="admin-dashboard-image" width= "500px" height="350"/>
-                                <h2 class="card-header">Admin Dashboard</h2>  </a>
-                                </div>
-                    </section>  
-                    <section class="card-body">
-                        <div class="card-column">  
-                        <a href="https://github.com/richardroyal/easy-restaurant-menu-manager">
-                        <img src="./assets/image/RMM2.jpg" alt="restaurant-menu-manager" class="restaurant-menu-manager-image" width= "500px" height="350" />
-                           <h2 class="card-header">Restaurant Menu Manager</h2>  </a>
-                            </div>
-                        </section>  
-                    <section class="card-body">
-                        <div class="card-column">
-                        <a href="https://github.com/microsoft/calculator">
-                <img src="./assets/image/calculator.jpg" alt="Calculator" class="calculator-image" width= "500px" height="350" />
-                   <h2 class="card-header">Calculator</h2> </a> 
-                            </div>
-                </section>  
-                </div>
-        </section>
+      <section class="row about-me">
+        <h1 id="col-12 about-me">About Me</h1>
+        <div class="col-12 About-me-body">
+          <p>
+            I am a new and upcoming web developer! I am 28 years old, with a
+            background in Chemical Engineering and Aerospace Engineering.
+            Previously I worked at Medtronic and JPL/NASA as a Liquid Fuels
+            Engineer. I am studying to become a web developer to learn and use a
+            new set of skills in the laboratory. I have always been interested
+            in coding but never had time to sit down and learn it! In my free
+            time I love to exercise, read novels and non-fiction, and hang out
+            with my friends and family.
+          </p>
+        </div>
+      </section>
+
+    <section class="work">
+    <h1 class="work-title" id="work">Work</h1>
+    <div class="work-body">
+          <section class="main-body">
+            <a href="https://m-ray-ofsunshine.github.io/actor-database/">
+              <img
+                src="./assets/image/resultPage.PNG"
+                alt="actorDatabase"
+                class="actorDatabase"
+                width="100%"
+                height="auto"
+              />
+              <h2 class="card-header">Actor Database</h2>
+            </a>
+            <br>
+            <a class="repo" style="text-decoration: none" href ="https://github.com/m-ray-ofSunshine/actor-database"><h2>Repo</h2></a>
+          </section>
+         
+
+          <section class="main-body">
+            
+              <a href="https://gentle-reaches-60799.herokuapp.com/">
+                <img
+                  src="./assets/image/eventorganizer222.PNG"
+                  alt="event-organizer"
+                  class="event-organizer"
+                  width="100%"
+                  height="auto"
+                />
+                <h2 class="card-header">Event Organizer</h2>
+              </a>
+              <br>
+              <a class="repo" href ="https://github.com/neilburt/group-project-2"><h2>Repo</h2></a>
+              
+          </section>
+        
+      </section>
     </main>
 
     <footer>
-        <h1 class=contact>Contact Me</h1>
-        <div class="contact-links" id="contact-me">
-            <nav>
-                <ul>
-                    <li>
-                        <h2><a rel=phone-number href="tel:6123271320">(612)-327-1320</a></h2>
-                    </li>
-                    <li>
-                        <h2> <a rel=git-hub href="https://github.com/SamuelMontague">Git Hub</a></h2>
-                    </li>
-                    <li>
-                        <h2> <a rel=email href="mailto: samuelpmontague@gmail.com">Samuelpmontague@gmail.com</a></h2>
-                    </li>
-                    <li>
-                        <h2> <a rel=twitter href="https://twitter.com/WestCoastGoo/">Twitter</a>
-                        </h2>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <h1 class="contact">Contact Me</h1>
+      <div class="contact-links" id="contact-me">
+        <nav>
+          <ul>
+            <li>
+                <h2>
+                  <a rel="résumé" style="text-decoration: none" href="https://docs.google.com/document/d/1zwVeAYXx2eZBNyKz57fYxExxlIkifMeE6fsSdFhFv1o/edit?usp=sharing">Résumé</a>
+                </h2>
+              </li>
+            <li>
+              <h2>
+                <a rel="linkedIn" style="text-decoration: none" href="https://www.linkedin.com/in/samuelpmontague/">LinkedIn</a>
+              </h2>
+            </li>
+            <li><h2><a rel="git-hub" style="text-decoration: none" href="https://github.com/SamuelMontague">Git Hub</a></h2></li>
+            <li>
+              <h2>
+                <a rel="email" style="text-decoration: none" href="mailto: samuelpmontague@gmail.com" style="text-decoration: none"
+                  >Samuelpmontague@gmail.com</a>
+              </h2>
+            </li>
+            <li><h2><a rel="twitter" style="text-decoration: none" href="https://twitter.com/WestCoastGoo/">Twitter</a></h2> </li></ul>
+        </nav>
+      </div>
     </footer>
-</body>
+  </body>
+</html>

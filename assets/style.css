@@ -27,7 +27,8 @@ body{
 
 }
 main {
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #about-me-title {
@@ -75,10 +76,17 @@ main {
 .main-body:hover{
     box-shadow: inset 0px 0px 8px var(--title), 0 0 15px var(--title);
 }
-.card-column {
+.main-body {
     display:flex;
     justify-content:center;
-    flex-direction:column;
+    
+}
+.repo {
+    display:flex;
+    justify-content:center;
+}
+.name-title {
+    padding-bottom: 3%
 }
 
 @media screen and (max-width:992px) {
