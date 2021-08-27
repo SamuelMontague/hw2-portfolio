@@ -1,15 +1,41 @@
 # hw2-portfolio
-The second homework project for the bootcamp
 
-I was tasked with creating my own web-developer portfolio page. 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
+  
+# Description
 
-my portfolio page opens with the correctly regardless of the screen size.
-when clicking on the link in the navigation the page scrolls to corresponding section.
-when clicking on my "works" there is a hover and link with a page of my git hub repo for the selected project.
-my first application is larger than the rest so the viewer knows which one to select first.
-while styling my page i selected colors that i thought would go well with my personality.
+Built a personalized portfolio for my digital resume to show to prospective job applications.
 
 ![screenshot-top](./assets/image/screenshot1.JPG)
 
 ![screenshot-bottom](./assets/image/screeshot2.JPG)
+
+    
+# Table of Contents
+
+* [License](#license)
+
+* [Contributing](#contributing)
+
+* [Questions](#questions)
+    
+
+
+# Usage
+
+Click on the images to go to the deployed version of my projects. Click the repo button to check out my github repo for my projects. 
+
+# License
+
+This application is covered by the MIT license.
+    
+# Contributing
+
+Contributors: Samuel Montague
+
+# Questions
+
+If you have any questions about the repo, open an issue or contact me directly at SamuelpMontague@gmail.com. You can find more of my work at (https://github.com/SamuelMontague/).
+
+
 
